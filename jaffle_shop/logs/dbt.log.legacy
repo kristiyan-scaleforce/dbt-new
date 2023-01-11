@@ -1,0 +1,3 @@
+2023-01-11 12:53:09.130057 (MainThread): unclosed <ssl.SSLSocket fd=1876, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.18', 57132), raddr=('216.58.212.10', 443)>
+2023-01-11 12:53:09.131049 (MainThread): unclosed <ssl.SSLSocket fd=1888, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.18', 57133), raddr=('216.58.212.10', 443)>
+2023-01-11 12:53:09.131049 (MainThread): unclosed <ssl.SSLSocket fd=1692, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.100.18', 57135), raddr=('216.58.212.10', 443)>
