@@ -1,0 +1,334 @@
+
+
+============================== 2023-01-11 11:30:08.671344 | ad8f3253-9013-4d17-8bd9-df3afc1190da ==============================
+[0m11:30:08.671344 [info ] [MainThread]: Running with dbt=1.3.2
+[0m11:30:08.672333 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\stani\\.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m11:30:08.672333 [debug] [MainThread]: Tracking: do not track
+[0m11:30:08.906253 [debug] [MainThread]: Executing "git --help"
+[0m11:30:08.932803 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:30:08.933806 [debug] [MainThread]: STDERR: "b''"
+[0m11:30:08.936180 [debug] [MainThread]: Acquiring new bigquery connection "debug"
+[0m11:30:08.936180 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:30:08.940755 [debug] [MainThread]: On debug: select 1 as id
+[0m11:30:10.462873 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=excitel-test&j=bq:824e682e-90b5-4272-a1a9-e7ab2f253e8d:US&page=queryresults
+[0m11:30:10.466559 [debug] [MainThread]: Flushing usage events
+[0m11:30:10.468144 [debug] [MainThread]: Connection 'debug' was properly closed.
+
+
+============================== 2023-01-11 12:49:35.760742 | 173cadc0-27d2-497c-bddf-b29dec397d30 ==============================
+[0m12:49:35.760742 [info ] [MainThread]: Running with dbt=1.3.2
+[0m12:49:35.760742 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\stani\\.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'indirect_selection': 'eager', 'select': ['customers'], 'which': 'test', 'rpc_method': 'test'}
+[0m12:49:35.760742 [debug] [MainThread]: Tracking: do not track
+[0m12:49:35.817772 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:49:35.817772 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:49:35.866416 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m12:49:35.867467 [info ] [MainThread]: 
+[0m12:49:35.868069 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m12:49:35.873079 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-01-11 12:50:04.905527 | 925742cd-24f7-4211-b56d-5fe8c407cbf9 ==============================
+[0m12:50:04.905527 [info ] [MainThread]: Running with dbt=1.3.2
+[0m12:50:04.905527 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\stani\\.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'indirect_selection': 'eager', 'select': ['my_first_dbt_model'], 'which': 'test', 'rpc_method': 'test'}
+[0m12:50:04.906642 [debug] [MainThread]: Tracking: do not track
+[0m12:50:04.958794 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:50:04.958794 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:50:05.009531 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m12:50:05.010527 [info ] [MainThread]: 
+[0m12:50:05.010527 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m12:50:05.012649 [debug] [ThreadPool]: Acquiring new bigquery connection "list_excitel-test_kristiyan"
+[0m12:50:05.012649 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:50:05.653772 [info ] [MainThread]: Concurrency: 64 threads (target='dev')
+[0m12:50:05.654827 [info ] [MainThread]: 
+[0m12:50:05.666268 [debug] [Thread-1 (]: Began running node test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710
+[0m12:50:05.666268 [debug] [Thread-2 (]: Began running node test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321
+[0m12:50:05.666268 [info ] [Thread-1 (]: 1 of 2 START test not_null_my_first_dbt_model_id ............................... [RUN]
+[0m12:50:05.666268 [info ] [Thread-2 (]: 2 of 2 START test unique_my_first_dbt_model_id ................................. [RUN]
+[0m12:50:05.667842 [debug] [Thread-1 (]: Acquiring new bigquery connection "test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m12:50:05.667842 [debug] [Thread-2 (]: Acquiring new bigquery connection "test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321"
+[0m12:50:05.667842 [debug] [Thread-1 (]: Began compiling node test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710
+[0m12:50:05.668844 [debug] [Thread-2 (]: Began compiling node test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321
+[0m12:50:05.668844 [debug] [Thread-1 (]: Compiling test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710
+[0m12:50:05.668844 [debug] [Thread-2 (]: Compiling test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321
+[0m12:50:05.678963 [debug] [Thread-1 (]: Writing injected SQL for node "test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m12:50:05.685244 [debug] [Thread-2 (]: Writing injected SQL for node "test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321"
+[0m12:50:05.686234 [debug] [Thread-2 (]: finished collecting timing info
+[0m12:50:05.686234 [debug] [Thread-1 (]: finished collecting timing info
+[0m12:50:05.687737 [debug] [Thread-2 (]: Began executing node test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321
+[0m12:50:05.687737 [debug] [Thread-1 (]: Began executing node test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710
+[0m12:50:05.700941 [debug] [Thread-2 (]: Writing runtime sql for node "test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321"
+[0m12:50:05.702457 [debug] [Thread-1 (]: Writing runtime sql for node "test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710"
+[0m12:50:05.704462 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m12:50:05.705454 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:50:05.706453 [debug] [Thread-2 (]: On test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321: /* {"app": "dbt", "dbt_version": "1.3.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+
+  select id as unique_field
+  from `excitel-test`.`kristiyan`.`my_first_dbt_model`
+  where id is not null
+
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+[0m12:50:05.706453 [debug] [Thread-1 (]: On test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710: /* {"app": "dbt", "dbt_version": "1.3.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+
+
+select id
+from `excitel-test`.`kristiyan`.`my_first_dbt_model`
+where id is null
+
+
+
+      
+    ) dbt_internal_test
+[0m12:50:07.397509 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=excitel-test&j=bq:77cc5ad4-662d-40a3-a35a-d8b8add7673a:US&page=queryresults
+[0m12:50:07.398854 [debug] [Thread-1 (]: finished collecting timing info
+[0m12:50:07.400787 [error] [Thread-1 (]: 1 of 2 FAIL 1 not_null_my_first_dbt_model_id ................................... [[31mFAIL 1[0m in 1.73s]
+[0m12:50:07.401838 [debug] [Thread-1 (]: Finished running node test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710
+[0m12:50:07.597671 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=excitel-test&j=bq:3f7584aa-1d37-47e1-b010-5f0bcae33107:US&page=queryresults
+[0m12:50:07.598754 [debug] [Thread-2 (]: finished collecting timing info
+[0m12:50:07.598754 [info ] [Thread-2 (]: 2 of 2 PASS unique_my_first_dbt_model_id ....................................... [[32mPASS[0m in 1.93s]
+[0m12:50:07.598754 [debug] [Thread-2 (]: Finished running node test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321
+[0m12:50:07.603657 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m12:50:07.603657 [info ] [MainThread]: 
+[0m12:50:07.603657 [info ] [MainThread]: Finished running 2 tests in 0 hours 0 minutes and 2.59 seconds (2.59s).
+[0m12:50:07.604590 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:50:07.604590 [debug] [MainThread]: Connection 'list_excitel-test_kristiyan' was properly closed.
+[0m12:50:07.604590 [debug] [MainThread]: Connection 'test.jaffle_shop.not_null_my_first_dbt_model_id.5fb22c2710' was properly closed.
+[0m12:50:07.604590 [debug] [MainThread]: Connection 'test.jaffle_shop.unique_my_first_dbt_model_id.16e066b321' was properly closed.
+[0m12:50:07.609278 [info ] [MainThread]: 
+[0m12:50:07.609278 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m12:50:07.610285 [info ] [MainThread]: 
+[0m12:50:07.610285 [error] [MainThread]: [31mFailure in test not_null_my_first_dbt_model_id (models\example\schema.yml)[0m
+[0m12:50:07.610285 [error] [MainThread]:   Got 1 result, configured to fail if != 0
+[0m12:50:07.610285 [info ] [MainThread]: 
+[0m12:50:07.611284 [info ] [MainThread]:   compiled Code at target\compiled\jaffle_shop\models\example\schema.yml\not_null_my_first_dbt_model_id.sql
+[0m12:50:07.611284 [info ] [MainThread]: 
+[0m12:50:07.611284 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=0 TOTAL=2
+[0m12:50:07.611284 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-01-11 12:50:16.379336 | 171e7ec7-da3d-48e0-840d-e69a7b265f97 ==============================
+[0m12:50:16.379336 [info ] [MainThread]: Running with dbt=1.3.2
+[0m12:50:16.379336 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\stani\\.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'indirect_selection': 'eager', 'select': ['customers'], 'which': 'test', 'rpc_method': 'test'}
+[0m12:50:16.379336 [debug] [MainThread]: Tracking: do not track
+[0m12:50:16.431610 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:50:16.431610 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:50:16.480734 [info ] [MainThread]: Found 3 models, 4 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m12:50:16.481734 [info ] [MainThread]: 
+[0m12:50:16.481734 [warn ] [MainThread]: [[33mWARNING[0m]: Nothing to do. Try checking your model configs and model specification args
+[0m12:50:16.485197 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-01-11 12:53:03.850330 | abf17b15-c05b-425d-9e53-b97ce687f9fe ==============================
+[0m12:53:03.850330 [info ] [MainThread]: Running with dbt=1.3.2
+[0m12:53:03.850330 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\stani\\.dbt', 'send_anonymous_usage_stats': False, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'which': 'run', 'rpc_method': 'run', 'indirect_selection': 'eager'}
+[0m12:53:03.850330 [debug] [MainThread]: Tracking: do not track
+[0m12:53:03.907717 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:53:03.907717 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:53:03.954337 [info ] [MainThread]: Found 3 models, 6 tests, 0 snapshots, 0 analyses, 319 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+[0m12:53:03.955294 [info ] [MainThread]: 
+[0m12:53:03.956381 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m12:53:03.957363 [debug] [ThreadPool]: Acquiring new bigquery connection "list_excitel-test"
+[0m12:53:03.957363 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:53:04.584204 [debug] [ThreadPool]: Acquiring new bigquery connection "list_excitel-test_kristiyan"
+[0m12:53:04.585159 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:53:05.169609 [info ] [MainThread]: Concurrency: 64 threads (target='dev')
+[0m12:53:05.170679 [info ] [MainThread]: 
+[0m12:53:05.186420 [debug] [Thread-1 (]: Began running node model.jaffle_shop.customers
+[0m12:53:05.186420 [debug] [Thread-2 (]: Began running node model.jaffle_shop.my_first_dbt_model
+[0m12:53:05.187417 [info ] [Thread-1 (]: 1 of 3 START sql view model kristiyan.customers ................................ [RUN]
+[0m12:53:05.187417 [info ] [Thread-2 (]: 2 of 3 START sql table model kristiyan.my_first_dbt_model ...................... [RUN]
+[0m12:53:05.187920 [debug] [Thread-1 (]: Acquiring new bigquery connection "model.jaffle_shop.customers"
+[0m12:53:05.188921 [debug] [Thread-2 (]: Acquiring new bigquery connection "model.jaffle_shop.my_first_dbt_model"
+[0m12:53:05.188921 [debug] [Thread-1 (]: Began compiling node model.jaffle_shop.customers
+[0m12:53:05.188921 [debug] [Thread-2 (]: Began compiling node model.jaffle_shop.my_first_dbt_model
+[0m12:53:05.188921 [debug] [Thread-1 (]: Compiling model.jaffle_shop.customers
+[0m12:53:05.188921 [debug] [Thread-2 (]: Compiling model.jaffle_shop.my_first_dbt_model
+[0m12:53:05.190914 [debug] [Thread-1 (]: Writing injected SQL for node "model.jaffle_shop.customers"
+[0m12:53:05.193500 [debug] [Thread-2 (]: Writing injected SQL for node "model.jaffle_shop.my_first_dbt_model"
+[0m12:53:05.194454 [debug] [Thread-1 (]: finished collecting timing info
+[0m12:53:05.194454 [debug] [Thread-2 (]: finished collecting timing info
+[0m12:53:05.194454 [debug] [Thread-1 (]: Began executing node model.jaffle_shop.customers
+[0m12:53:05.194454 [debug] [Thread-2 (]: Began executing node model.jaffle_shop.my_first_dbt_model
+[0m12:53:05.214668 [debug] [Thread-1 (]: Writing runtime sql for node "model.jaffle_shop.customers"
+[0m12:53:05.222635 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m12:53:05.223679 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m12:53:05.245088 [debug] [Thread-1 (]: On model.jaffle_shop.customers: /* {"app": "dbt", "dbt_version": "1.3.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.customers"} */
+
+
+  create or replace view `excitel-test`.`kristiyan`.`customers`
+  OPTIONS()
+  as with customers as (
+
+    select
+        id as customer_id,
+        first_name,
+        last_name
+
+    from `dbt-tutorial`.jaffle_shop.customers
+
+),
+
+orders as (
+
+    select
+        id as order_id,
+        user_id as customer_id,
+        order_date,
+        status
+
+    from `dbt-tutorial`.jaffle_shop.orders
+
+),
+
+customer_orders as (
+
+    select
+        customer_id,
+
+        min(order_date) as first_order_date,
+        max(order_date) as most_recent_order_date,
+        count(order_id) as number_of_orders
+
+    from orders
+
+    group by 1
+
+),
+
+final as (
+
+    select
+        customers.customer_id,
+        customers.first_name,
+        customers.last_name,
+        customer_orders.first_order_date,
+        customer_orders.most_recent_order_date,
+        coalesce(customer_orders.number_of_orders, 0) as number_of_orders
+
+    from customers
+
+    left join customer_orders using (customer_id)
+
+)
+
+select * from final;
+
+
+[0m12:53:05.842338 [debug] [Thread-2 (]: Writing runtime sql for node "model.jaffle_shop.my_first_dbt_model"
+[0m12:53:05.843336 [debug] [Thread-2 (]: On model.jaffle_shop.my_first_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.my_first_dbt_model"} */
+
+  
+    
+
+    create or replace table `excitel-test`.`kristiyan`.`my_first_dbt_model`
+    
+    
+    OPTIONS()
+    as (
+      /*
+    Welcome to your first dbt model!
+    Did you know that you can also configure models directly within SQL files?
+    This will override configurations stated in dbt_project.yml
+
+    Try changing "table" to "view" below
+*/
+
+
+
+with source_data as (
+
+    select 1 as id
+    union all
+    select null as id
+
+)
+
+select *
+from source_data
+
+/*
+    Uncomment the line below to remove records with null `id` values
+*/
+
+-- where id is not null
+    );
+  
+[0m12:53:06.509529 [debug] [Thread-1 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=excitel-test&j=bq:d95b78ce-cd82-41ac-80da-e260134fa54d:US&page=queryresults
+[0m12:53:06.520979 [debug] [Thread-1 (]: finished collecting timing info
+[0m12:53:06.521979 [info ] [Thread-1 (]: 1 of 3 OK created sql view model kristiyan.customers ........................... [[32mCREATE VIEW (0 processed)[0m in 1.33s]
+[0m12:53:06.523907 [debug] [Thread-1 (]: Finished running node model.jaffle_shop.customers
+[0m12:53:07.966584 [debug] [Thread-2 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=excitel-test&j=bq:7e469147-7950-4f23-8ab4-d6205fe5b89d:US&page=queryresults
+[0m12:53:07.973588 [debug] [Thread-2 (]: finished collecting timing info
+[0m12:53:07.973588 [info ] [Thread-2 (]: 2 of 3 OK created sql table model kristiyan.my_first_dbt_model ................. [[32mCREATE TABLE (2.0 rows, 0 processed)[0m in 2.79s]
+[0m12:53:07.975507 [debug] [Thread-2 (]: Finished running node model.jaffle_shop.my_first_dbt_model
+[0m12:53:07.976507 [debug] [Thread-4 (]: Began running node model.jaffle_shop.my_second_dbt_model
+[0m12:53:07.976507 [info ] [Thread-4 (]: 3 of 3 START sql view model kristiyan.my_second_dbt_model ...................... [RUN]
+[0m12:53:07.977505 [debug] [Thread-4 (]: Acquiring new bigquery connection "model.jaffle_shop.my_second_dbt_model"
+[0m12:53:07.977505 [debug] [Thread-4 (]: Began compiling node model.jaffle_shop.my_second_dbt_model
+[0m12:53:07.977505 [debug] [Thread-4 (]: Compiling model.jaffle_shop.my_second_dbt_model
+[0m12:53:07.979007 [debug] [Thread-4 (]: Writing injected SQL for node "model.jaffle_shop.my_second_dbt_model"
+[0m12:53:07.981089 [debug] [Thread-4 (]: finished collecting timing info
+[0m12:53:07.981089 [debug] [Thread-4 (]: Began executing node model.jaffle_shop.my_second_dbt_model
+[0m12:53:07.982996 [debug] [Thread-4 (]: Writing runtime sql for node "model.jaffle_shop.my_second_dbt_model"
+[0m12:53:07.983993 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m12:53:07.984990 [debug] [Thread-4 (]: On model.jaffle_shop.my_second_dbt_model: /* {"app": "dbt", "dbt_version": "1.3.2", "profile_name": "jaffle_shop", "target_name": "dev", "node_id": "model.jaffle_shop.my_second_dbt_model"} */
+
+
+  create or replace view `excitel-test`.`kristiyan`.`my_second_dbt_model`
+  OPTIONS()
+  as -- Use the `ref` function to select from other models
+
+select *
+from `excitel-test`.`kristiyan`.`my_first_dbt_model`
+where id = 1;
+
+
+[0m12:53:09.114370 [debug] [Thread-4 (]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=excitel-test&j=bq:3a4dada9-8084-4ea5-b513-69d94e1fc101:US&page=queryresults
+[0m12:53:09.116362 [debug] [Thread-4 (]: finished collecting timing info
+[0m12:53:09.116362 [info ] [Thread-4 (]: 3 of 3 OK created sql view model kristiyan.my_second_dbt_model ................. [[32mCREATE VIEW (0 processed)[0m in 1.14s]
+[0m12:53:09.119028 [debug] [Thread-4 (]: Finished running node model.jaffle_shop.my_second_dbt_model
+[0m12:53:09.123534 [debug] [MainThread]: Acquiring new bigquery connection "master"
+[0m12:53:09.124539 [info ] [MainThread]: 
+[0m12:53:09.124539 [info ] [MainThread]: Finished running 2 view models, 1 table model in 0 hours 0 minutes and 5.17 seconds (5.17s).
+[0m12:53:09.125536 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:53:09.125536 [debug] [MainThread]: Connection 'list_excitel-test' was properly closed.
+[0m12:53:09.125536 [debug] [MainThread]: Connection 'list_excitel-test_kristiyan' was properly closed.
+[0m12:53:09.125536 [debug] [MainThread]: Connection 'model.jaffle_shop.customers' was properly closed.
+[0m12:53:09.126541 [debug] [MainThread]: Connection 'model.jaffle_shop.my_first_dbt_model' was properly closed.
+[0m12:53:09.126541 [debug] [MainThread]: Connection 'model.jaffle_shop.my_second_dbt_model' was properly closed.
+[0m12:53:09.140585 [info ] [MainThread]: 
+[0m12:53:09.141574 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:53:09.142582 [info ] [MainThread]: 
+[0m12:53:09.143629 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m12:53:09.144586 [debug] [MainThread]: Flushing usage events
